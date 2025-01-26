@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".muclepage1">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/searchView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#101010"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- First ImageView -->
+
+            <!-- Button 1 -->
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="wrap_content"
+                android:layout_height="264dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/eac465ae1bdcc5672dbc7b46de7f1e7e" />
+
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#0299A9"
+                android:text="Arm Workouts"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <!-- Second ImageView -->
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/pose_muscle_muscle_rod_press_hd_wallpaper_preview" />
+
+            <!-- Button 2 -->
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#0097A7"
+                android:text="Chest Workouts"
+                android:textColor="#FFFEFE"
+                android:textSize="16sp" />
+
+            <!-- Third ImageView -->
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/wp13696902" />
+
+            <!-- Button 3 -->
+            <Button
+                android:id="@+id/button8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#0097A7"
+                android:text="Back Workouts"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Fourth ImageView -->
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/legs" />
+
+            <!-- Button 4 -->
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#0097A7"
+                android:text="Legs Workoouts"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+            <!-- Fifth ImageView -->
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginBottom="16dp"
+                android:scaleType="centerCrop"
+                app:srcCompat="@drawable/gym_workout_muscle_hands_human_back_mirror_615565_1280x853" />
+
+            <!-- Button 5 -->
+            <Button
+                android:id="@+id/button10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#0097A7"
+                android:text="Sholder Workouts"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

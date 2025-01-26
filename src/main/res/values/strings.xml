@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">FlexFit</string>
+    <string name="username">Ruchira Lakshitha Bandaranayake</string>
+    <string name="age">22</string>
+    <string name="gender"> male</string>
+    <string name="address">49/2 Bothale Ihalagama </string>
+    <string name="city">Gampaha</string>
+    <string name="textView4">WELCOME</string>
+    <string name="textView">Start your Journey with FLEXFIT </string>
+    <string name="button">GET START</string>
+    <string name="btn2">NEXT</string>
+    <string name="editTextText2">IT22278630@my.sliit.lk</string>
+    <string name="editTextText7">lruchira58@gmail.com</string>
+    <string name="editTextTextPassword">ruchira11111</string>
+    //new password
+    <string name="editTextTextPassword2">ruchira11111</string>
+    //confirm password
+    <string name="button11">Arm Workouts</string>
+    <string name="button12">Chest Workouts</string>
+    <string name="button13">Back Workouts</string>
+    <string name="button14">Legs Workoouts</string>
+    <string name="button100">Sholder Workouts</string>
+    <string name="button6">View User Profile</string>
+    <string name="button7">Train muscles</string>
+    <string name="button8">Diet Plans</string>
+    <string name="button9">Nutritions</string>
+    <string name="button10">Supplements</string>
+
+
+
+
+</resources>
